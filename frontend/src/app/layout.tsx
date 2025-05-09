@@ -1,3 +1,5 @@
+import './globals.css';
+
 import Navbar from "./components/Navbar/page";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -10,3 +12,4 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     </html>
   );
 }
+
