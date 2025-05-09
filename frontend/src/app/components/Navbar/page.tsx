@@ -6,7 +6,7 @@ import { FaClipboardList } from 'react-icons/fa';
 
 export default function Navbar() {
   return (
-    <nav className="bg-white/5 backdrop-blur-md border border-[#222] px-6 py-4 flex justify-center items-center space-x-6 rounded-lg shadow-md">
+    <nav className="bg-black backdrop-blur-md border border-[#222] px-6 py-4 flex justify-center items-center space-x-6 rounded-lg shadow-md">
       <Link href="/" className="text-white hover:text-white font-bold text-lg flex items-center space-x-2">
         <AiFillHome className="text-blue-500" /> <span>HOME</span>
       </Link>
