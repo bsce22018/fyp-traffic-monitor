@@ -5,7 +5,7 @@ import { MdSecurity } from "react-icons/md";
 export default function Home() {
   return (
     <div
-      className="h-screen bg-cover bg-center"
+      className="bg-black h-screen bg-cover bg-center"
       style={{ backgroundImage: "url('/background.jpg')" }}
     >
       <div className="flex justify-end items-center h-full pr-10">
